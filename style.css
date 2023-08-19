@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Source Sans 3', sans-serif; 
+}
+
+body{
+  background-color: #222;
+  width: 100%;
+  background: url(./image/weatherbck.jpg);
+}
+
+.card{
+  width: 90%;
+  max-width: 350px;
+  background-color: #0c0c0c;
+  background-image:  radial-gradient(#2396e3 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#b3b3b5 1.1500000000000001px, #c2bfbf 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;    
+  margin: 50px auto 0;
+  border-radius: 50px 10px;
+  padding: 40px 50px;
+  text-align: center;
+  box-shadow: 0 0 8px #3942e9;
+}
+
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input{
+  width: 80%;
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 5px 25px;
+  height: 40px;
+  border-radius: 30px;
+  margin-right:10px;
+  font-size: 18px;
+ 
+}
+
+.search button{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.search button img{
+  width: 20px;
+}
+
+.weather{
+  align-items: center;
+  justify-content: center;
+  display: none;
+
+}
+.weather-icon{
+  width: 200px;
+  margin-top: 30px;
+  margin: 50px auto 30px;
+}
+
+.weather-icon img{
+  width: 80px;
+  background-color: rgba(182, 177, 177, 0.5);
+  border-radius: 50%;
+
+}
+
+
+.weather-icon h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.col{
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.col svg{
+  opacity: 0.8;
+  width: 20px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.details h4,.main{
+  color: rgba(80, 40, 40, 0.78);
+}
+
+p,.temp{
+  color: #18066e;
+}
+
+.city{
+  color: #555;
+}
+
+.error{
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  display: none;
+}
+
+.date{
+  color: rgba(80, 40, 40, 0.78);
+}
+
+
